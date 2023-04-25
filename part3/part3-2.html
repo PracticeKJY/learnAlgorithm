@@ -23,11 +23,9 @@ YES -->
       function solution(str) {
         let answer = "yes"
 
-        let nonReverseStr = str
-          .toLowerCase()
-          .replace(/[:;,]/g, "")
-          .split("")
-          .join("")
+        let nonReverseStr = str.toLowerCase().replace(/[:;,]/g, "")
+        // .split("")
+        // .join("")
 
         let reverseStr = str
           .toLowerCase()
